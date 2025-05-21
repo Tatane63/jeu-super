@@ -1,0 +1,20 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Joueur - Phrases Drôles</title>
+  <script src="https://www.gstatic.com/firebasejs/9.6.1/firebase-app-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/9.6.1/firebase-database-compat.js"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h2>Entrez une phrase drôle :</h2>
+  <input id="phraseInput" placeholder="Votre phrase..." />
+  <button onclick="submitPhrase()">Envoyer</button>
+
+  <h3>Votez pour une phrase :</h3>
+  <div id="phrasesToVote"></div>
+  <script src="player.js"></script>
+</body>
+</html>
